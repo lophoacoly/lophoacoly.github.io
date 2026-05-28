@@ -432,3 +432,16 @@
   padding-right: 0;
   border-right: none;
 }
+
+.zalo-float {
+  position: fixed;
+  right: 47px;
+  bottom: 110px;
+  z-index: 999;
+}
+.fb-float {
+  position: fixed;
+  right: 47px;
+  bottom: 170px;
+  z-index: 999;
+}
