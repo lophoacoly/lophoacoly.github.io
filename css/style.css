@@ -261,7 +261,6 @@
 .service-item:hover {
   margin-top: -10px;
   background: var(--primary);
-  border: 1px solid var(--light);
 }
 
 .service-item * {
