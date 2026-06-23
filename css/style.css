@@ -195,8 +195,7 @@
 }
 
 .page-header {
-  background: linear-gradient(rgba(24, 29, 56, 0.7), rgba(24, 29, 56, 0.7)),
-    url(../img/background.png);
+  background: var(--light);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
