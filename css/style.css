@@ -452,3 +452,18 @@
     min-height: 600px !important;
     width: 100% !important;
 }
+/* Tùy chỉnh thanh cuộn cho các trình duyệt Chrome, Safari, Edge */
+  .article-scroll-container::-webkit-scrollbar {
+    width: 6px;
+  }
+  .article-scroll-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  .article-scroll-container::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 10px;
+  }
+  .article-scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+  }
