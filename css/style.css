@@ -467,3 +467,11 @@
   .article-scroll-container::-webkit-scrollbar-thumb:hover {
     background: #a8a8a8;
   }
+  /* Hiệu ứng khi hover chuột vào nút */
+.btn-hover-primary:hover {
+  background: var(--primary) !important; /* Đổi nền sang màu Primary của Bootstrap */
+  color: #ffffff !important;             /* Giữ chữ màu trắng */
+  border-color: var(--primary) !important; /* Đổi màu viền đồng bộ với nền */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Thêm đổ bóng nhẹ cho đẹp mắt */
+  backdrop-filter: none !important;      /* Tắt bỏ hiệu ứng mờ kính khi đã có màu đặc */
+}
