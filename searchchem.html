@@ -167,7 +167,38 @@
             <p>Bước 2: Click vào nút "Tra cứu" để xem thông tin chi tiết về nguyên tố.</p>
             <p>Bước 3: Bạn có thể xem các tính chất vật lý và hóa học của nguyên tố.</p>
             <p>Bước 4: Nếu có bất kỳ vấn đề gì, bạn có thể liên hệ với cô giáo để được hỗ trợ.</p>
-            
+            <div class="unit-convert mt-4">
+                <h6>Đổi đơn vị hoá học</h6>
+                <div class="row g-2">
+                    <div class="col-12 col-md-4">
+                        <input type="number" id="convert-value" class="form-control" placeholder="Nhập giá trị" />
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <select id="convert-from" class="form-select">
+                            <option value="g">g</option>
+                            <option value="kg">kg</option>
+                            <option value="mg">mg</option>
+                            <option value="mol">mol</option>
+                            <option value="mmol">mmol</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <select id="convert-to" class="form-select">
+                            <option value="g">g</option>
+                            <option value="kg">kg</option>
+                            <option value="mg">mg</option>
+                            <option value="mol">mol</option>
+                            <option value="mmol">mmol</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <button id="convert-btn" class="btn btn-primary w-100">Đổi</button>
+                    </div>
+                    <div class="col-12 mt-2">
+                        <p id="convert-result"></p>
+                    </div>
+                </div>
+            </div>
           </div>
         </div>
       </div>
